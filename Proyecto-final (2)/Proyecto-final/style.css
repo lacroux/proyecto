@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Body */
+body {
+    color:black;
+    background:rgba(201, 200, 200, 0.493);
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    margin: 20px;
+}
+
+/* Navigation */
+.nav-main {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 30px;
+}
+
+.nav-logo {
+    width: 300px;   
+}
+
+/* Nav Center */
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 5px;
+}
+.nav-main ul li a {
+    padding: 8px;
+}
+.nav-main ul li a:hover {
+    border-bottom: 3px solid black;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Fin de body */
+
+
+/* Menu */
+.nav-menu {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+li {
+    font-family:'Oswald', sans-serif;
+    background-color: auto;
+    margin: 0px 40px 40px 40px; 
+    list-style: none;
+  }
+
+li a {
+    text-decoration: none;
+}
+
+
+/* Inicio sesion */
+
+/* Parrafos, fonts, imagenes */
+.nueva-publicidad img {
+    margin: 50px 50px 0px 50px;    
+}
+
+/* Imagenes Principales */
+/* Transition / pseudoclase :hover */
+.imagen-uno:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+
+.imagen-dos:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+
+.imagen-tres:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+
+.imagen-cuatro:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+/* FIN pseudoclase :hover */
+
+/* Imagenes secundarias */
+/* Transition / pseudoclase :hover */
+.imagen-cinco:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+
+.imagen-seis:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+
+.imagen-siete:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+
+.imagen-ocho:hover {
+    transform: scale(2);
+    transition: 2s;
+}
+/* FIN pseudoclase :hover */
+
+.nueva-publicidad h2 {
+    margin: 10px 60px;
+}
+
+.nueva-publicidad p {
+    margin: 2px 4px;   
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    text-align:left;
+    margin:60px;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align:left;
+    margin: 60px;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align:left;
+    margin: 60px;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align:left;
+    margin: 25px;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nueva-publicidad a {
+    padding:45px;
+    
+}
+
+.content a {
+    margin: 60px;
+    color: white;
+}
+
+.nueva-publicidad a {
+    margin: 20px;
+}
+/* Fin parrafos */
+
+
+/* margin imagenes, video , maps */
+
+/* tamano imagenes grip */
+.nueva-publicidad img {
+    width:250px;
+    height:150px;
+    margin: 2px 2px 2px 2px;
+}
+
+
+/* Grip */
+.nueva-publicidad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 5px 0;
+}
+
+/* Banner Publicidad */
+.banner-uno {
+    width: 50%;
+    height:400px;
+    margin-top: 40px;
+    margin-bottom: 500px;
+}
+
+.banner-uno h2 {
+    margin: 10px 60px;    
+    padding-top: 35%;
+    color: white;
+}
+
+.banner-uno p {
+    margin: 10px 60px;
+    color: white;
+}
+
+.banner-uno a {
+    margin: 10px 60px;
+    color: white;
+}
+
+.banner-dos {
+    width: 100%;
+    height: 600px;
+    margin: 50px;
+    background: url('image/corazon-azul.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-dos h2 {
+    margin: 10px 60px;    
+    padding-top: 35%;
+    color: white;
+}
+
+.banner-dos h2 {
+    margin: 10px 60px;    
+    padding-top: 35%;
+    color: white;
+}
+
+.banner-dos p {
+    margin: 10px 60px;
+    color: white;
+}
+
+/* Tamaño imagen whatsapp  / :hover */
+.item-whatsapp img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Tamaño RSS */
+.imagen-rss img {
+    width: 60px;
+    height: 60px;
+}
+
+.imagen-rss {
+    background: #2f3640;
+    color: #616161;
+    padding: 50px 0;
+}
+
+/* Logo de whatpsapp seguir en resto de pagina */
+
+.item-whatsapp img {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.imagenes-inicio img {
+    margin: auto;
+    padding: 60px;
+}
+
+
+/* Fin logo seguir whatsapp */
+
+/* Animaciones */
+a:hover {
+    animation: changecolor 1s;
+}
+
+@keyframes changecolor {
+   10% { background-color: rgba(201, 200, 200, 0.493);
+}
+}
+/* Fin animaciones */
+
+
+.contactanos:hover {
+    animation: changecolor 1s;
+}
+
+@keyframes changecolor {
+   100% { background-color: gray
+}
+}
+/* Fin animaciones */
+
+/* Main */
+img {
+    border-radius: 5%;
+}
+
+.contactanos {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-rss {
+    display: flex;
+    justify-content: center;
+}
+
+/* Flexbox video / maps*/
+
+.image h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.encuentranos h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.maps {
+    display: flex;
+    justify-content: center;
+}
+
+.comentario p {
+    text-align: center;
+}
+ /* Fin flexbos video / maps */
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .menu-btn {
+      display: block;
+    }
+
+    .nav-main ul.nav-menu {
+      display: block;
+      position:absolute;
+      top: 0;
+      left: 0;
+      background: rgba(201, 200, 200, 0.493);;
+      height: 100%;
+      padding: 30px;
+      opacity: .9;
+      transition: transform .5s ease-in-out;
+
+    }
+
+    .nav-main ul.nav-menu.show {
+      transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li {
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .nav-main ul.nav-menu-right {
+      margin-right: 40px;
+    }
+
+    .nueva-publicidad {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 500px) {
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+
+    
